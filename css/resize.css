@@ -1,0 +1,41 @@
+.fi-br-cross {
+    display: none;
+  }
+
+  .products__cards-container {
+    grid-template-columns: repeat(2, minmax(150px, 360px));
+    grid-template-rows: 1fr;
+    place-content: center;
+  }
+
+  .product__card {
+    max-width: 350px;
+  }
+
+  .flavors__container {
+    place-content: center;
+    gap: 30px;
+    grid-template-columns: repeat(3, minmax(150px, 200px));
+    grid-template-rows: 1fr;
+  }
+
+  .flavor__circle:nth-child(4) {
+    grid-column: 2 / 3;
+  }
+
+  .special__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    max-width: 500px;
+    margin: 50px auto;
+  }
+
+  .special__container h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+
+  .special__container .special__img-container {
+    margin-top: 20px;
+  }
